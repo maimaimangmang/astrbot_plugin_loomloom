@@ -1,0 +1,15 @@
+name: astrbot_plugin_loomloom
+display_name: LoomLoom
+author: Zoey
+version: 0.3.2
+desc: 批量执行云端 Skill，轻松处理文案创作、图片生成与需求审阅。聊天选技能，Excel 批量准备，确认费用后执行并收取结果。
+
+astrbot_version: ">=4.29.4,<5"
+support_platforms:
+  - aiocqhttp
+repo: https://github.com/maimaimangmang/astrbot_plugin_loomloom
+short_desc: 聊天选技能，批量执行云端 Skill
+tags:
+  - LoomLoom
+  - Skill
+  - 批量任务

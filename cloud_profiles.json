@@ -1,0 +1,11 @@
+{
+  "description": "Reviewed standard cloud wrapper, static comparison only; never executes package code. Changes require review.",
+  "source": "https://loomloom.shengsuanyun.com/loom/v1/marketListings/01a1a026-607b-7449-a3da-76c167736078/skillPackage/archive",
+  "reviewed": "2026-11-04",
+  "profiles": [
+    {
+      "script_sha256": "fd9ffc5776eb007ebcdcc041190cd189fff6e8971c210edb8183614a17a45629",
+      "skill_sha256": "b22fd8104c3b9b8e924b6f693248299a3b9972eb31790e7e0142f7d71166dda7"
+    }
+  ]
+}

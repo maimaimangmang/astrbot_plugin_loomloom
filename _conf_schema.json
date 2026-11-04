@@ -1,0 +1,39 @@
+{
+  "api_key": {
+    "type": "string",
+    "description": "胜算云 LoomLoom API Key",
+    "default": "",
+    "hint": "AstrBot 用户福利：通过[此链接新注册胜算云](https://www.shengsuanyun.com/?from=CH_T70U2X9L)，可领取 5 元体验 Token。只在这里填写密钥，不要在 QQ 发送；插件仅向胜算云 LoomLoom 服务发送密钥。",
+    "secret": true
+  },
+  "allowed_users": {
+    "type": "list",
+    "description": "允许使用的 QQ 账号",
+    "default": [],
+    "hint": "填写你自己的日常 QQ 号，每项一个。留空时所有人都无法调用；目前仅限私聊。"
+  },
+  "max_estimated_cost": {
+    "type": "string",
+    "description": "单次预估费用上限",
+    "default": "5",
+    "hint": "默认 5 CNY。仅限制提交前的费用预估，不是服务端最终账单硬上限。"
+  },
+  "cost_currency": {
+    "type": "string",
+    "description": "费用上限币种",
+    "default": "CNY",
+    "hint": "必须与服务返回币种一致；插件不会自行换算币种。"
+  },
+  "notify_completion": {
+    "type": "bool",
+    "description": "任务结束后通知原私聊",
+    "default": true,
+    "hint": "每分钟检查一次本插件提交的任务，最多检查 7 天。也可以使用 /loom status 和 /loom result 手动查询。"
+  },
+  "napcat_callback_base": {
+    "type": "string",
+    "description": "NapCat 读取文件时使用的 AstrBot 地址",
+    "default": "http://astrbot:6185",
+    "hint": "大肥鱼 Docker 包保持默认。AstrBot 与 NapCat 原生运行在同一台电脑时可留空。此地址不发送 LoomLoom 密钥。"
+  }
+}
